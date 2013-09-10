@@ -1,6 +1,6 @@
 var express = require('express');
 var fs = require('fs');
-var htmfile = "index.html";
+var htmlfile = "index.html";
  
 var app = express();
 app.use(express.logger());
